@@ -131,21 +131,10 @@ python client.py
 python client.py --server=file_manager
 ```
 
-### 스크립트로 실행
-
-```bash
-chmod +x run_client.sh
-./run_client.sh
-```
-
 ### 상세 로그 출력
 
 ```bash
 python client.py --verbose
-```
-또는
-```bash
-VERBOSE=true ./run_client.sh
 ```
 
 ## 사용 예시
