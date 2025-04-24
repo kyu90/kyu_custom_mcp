@@ -221,7 +221,7 @@ Available tools:
                         param_type = param_info.get("type", "")
                         system_message += f"  - {param_name} ({param_type}): {param_desc}\n"
 
-        # Deepseek 모델과 대화
+        # 모델과 대화
         messages = [
             {"role": "system", "content": system_message},
             {"role": "user", "content": query}
@@ -404,7 +404,7 @@ Available tools:
                     "parameters": {"path": "."}
                 })
         
-        # 3. XML 형식 처리 (Claude, GPT 형식)
+        # 3. XML 형식 처리 
         if not tool_calls and ('<function_calls>' in message or '<function_calls>' in message):
             if self.verbose:
                 print("XML 형식 도구 호출 감지됨")
@@ -435,7 +435,7 @@ Available tools:
                     
                     tool_calls.append({"name": tool_name, "parameters": parameters})
         
-        # 4. JSON 형식 처리 (deepseek 모델)
+        # 4. JSON 형식 처리 
         # JSON 블록 찾기
         if not tool_calls:
             json_blocks = re.findall(r'```json\s*(.*?)\s*```', message, re.DOTALL)
