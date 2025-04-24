@@ -22,6 +22,16 @@
             "-y",
            "@modelcontextprotocol/server-everything"
             ]
+        },
+        "perplexity-ask": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "server-perplexity-ask"
+          ],
+          "env": {
+            "PERPLEXITY_API_KEY": "YOUR_API_KEY"
+          }
         }
     }
 }
