@@ -46,8 +46,7 @@ Model Context Protocol(MCP)은 AI 언어 모델(LLM)과 외부 도구/데이터 
 ## 아키텍처
 
 ### 주요 컴포넌트
-
-![MCP 클라이언트 아키텍처](https://mermaid.ink/img/pako:eNqNklFrwjAUhf9KuM8K0to62D6IVgURJg62DGQPaXpnCzYNSSJI2X_fTWtna3Ew5OHmnnPu-RI6QKQpQgBTruw7Hg9FyHpQGpuXqRbG4GibTJ7Uo8LzWtdcJ_Okn1KbijThgkqc0wWniqb0eT2YWDvZRFGWZUF-CA7_usO7u8H46e7lbzXn0ioZ4vl5V9nYlZt1RJF3GZRIeQFzJ-M30jGxRrMxZI2I-yrFjCpMYZzCJ5qMGlxtBmPnNmnBnHPOtHUNDDVKH_A_YN19BEO1oJYreRiKFCZoNgEHTmzRTQXf9VCLOevgdq06LdEVK8HVZ_MNJuhUEaMrzLvTQBrWLLRtO4_KSrGQlY9xXBaGFDQRbKkVCQR7cZq4_-oDUXQl)
+![MCP란?](https://github.com/user-attachments/assets/813459ff-944a-4789-a2af-721dc9e85571)
 
 1. **MCPClient**: 핵심 클래스로, 다양한 서버 연결 및 도구 호출 관리
 2. **도구 확장(Extensions)**: 특정 도구를 위한 확장 기능 제공
