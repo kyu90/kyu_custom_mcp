@@ -1,0 +1,27 @@
+{
+    "mcpServers": {
+        "file_manager": {
+            "command": "python",
+            "args": [
+                "mcp_server_file_manager.py"
+            ],
+            "env": {
+                "BASE_PATH": "./"
+            }
+        },
+        "sequential-thinking": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-sequential-thinking"
+            ]
+        },
+        "everything": {
+          "command": "npx",
+            "args": [
+            "-y",
+           "@modelcontextprotocol/server-everything"
+            ]
+        }
+    }
+}
