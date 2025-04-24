@@ -38,7 +38,6 @@ Model Context Protocol(MCP)은 AI 언어 모델(LLM)과 외부 도구/데이터 
 ## 기능
 
 - 다양한 MCP 서버에 연결하여 도구 사용
-- 다양한 형식의 도구 호출 구문 파싱 지원 (JSON, XML, 특수 패턴 등)
 - Sequential Thinking 및 Perplexity Ask 도구 지원
 - 대화형 인터페이스 제공
 - 로컬 AI 모델(Ollama)과 연동하여 도구 사용 지원
